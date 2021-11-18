@@ -123,9 +123,9 @@ namespace Quan_li_nhan_su
 			{
 				Console.WriteLine("Them nhan vien: ae");
 				Console.WriteLine("Them khach hang: ac ");
-				Console.WriteLine("hien thi thong tin nhan vien: dae ");
-				Console.WriteLine("hien thi thong tin khach hang: dac ");
-				Console.WriteLine("thong ke khach hang: cs ");
+				Console.WriteLine("Hien thi thong tin nhan vien: dae ");
+				Console.WriteLine("Hien thi thong tin khach hang: dac ");
+				Console.WriteLine("Thong ke khach hang: cs ");
 			}
 		}
 	}
