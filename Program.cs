@@ -97,11 +97,11 @@ namespace Quan_li_nhan_su
 				int vip = 0;
 				for (int i = 0; i < DBDV.Count; i++)
 				{
-					if (DBDV[i].LoaiKH == "Khachhangmoi")
+					if (DBDV[i].LoaiKH == "khach hang moi")
 					{
 						Khachhangmoi += 1;
 					}
-					else if (DBDV[i].LoaiKH == "Thanhvien")
+					else if (DBDV[i].LoaiKH == "thanh vien")
 					{
 						Thanhvien += 1;
 					}
@@ -114,7 +114,7 @@ namespace Quan_li_nhan_su
 				Console.WriteLine("------Khach hang------");
 				Console.WriteLine(" So khach hang moi: {0}", Khachhangmoi);
 				Console.WriteLine(" So thanh vien: {0}", Thanhvien);
-				Console.WriteLine(" So thanh vien vip: {0}", vip);
+				Console.WriteLine(" So thanh vien VIP: {0}", vip);
 			}
 			static void Menu()
 			{
