@@ -65,7 +65,7 @@ namespace Quan_li_nhan_su
 				string KI = Console.ReadLine();
 				Console.Write("Ma so: ");
 				string KO = Console.ReadLine();
-				Console.Write("Gioitinh: ");
+				Console.Write("Gioi tinh: ");
 				string KP = Console.ReadLine();
 				Console.Write("Ngay sinh: ");
 				string Kl = Console.ReadLine();
