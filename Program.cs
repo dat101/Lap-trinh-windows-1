@@ -56,10 +56,9 @@ namespace Quan_li_nhan_su
 				string KM = Console.ReadLine();
 				Nhanvien NV = new Nhanvien(KO, KI, KP, Kl, KM);
 				DSDV.Add(NV);
-
 			}
-			static void Themkhachhang(List<Khachhang> DBDV)
 
+			static void Themkhachhang(List<Khachhang> DBDV)
 			{
 				Console.Write("Ho ten: ");
 				string KI = Console.ReadLine();
@@ -74,6 +73,7 @@ namespace Quan_li_nhan_su
 				Khachhang NV = new Khachhang(KO, KI, KP, Kl, KM);
 				DBDV.Add(NV);
 			}
+
 			static void TTNV(List<Nhanvien> DSDV)
 			{
 				for (int i = 0; i < DSDV.Count; i++)
@@ -82,6 +82,7 @@ namespace Quan_li_nhan_su
 
 				}
 			}
+
 			static void TTKH(List<Khachhang> DBDV)
 			{
 				for (int i = 0; i < DBDV.Count; i++)
@@ -90,6 +91,7 @@ namespace Quan_li_nhan_su
 
 				}
 			}
+
 			static void TKKH(List<Khachhang> DBDV)
 			{
 				int Khachhangmoi = 0;
@@ -116,6 +118,7 @@ namespace Quan_li_nhan_su
 				Console.WriteLine(" So thanh vien: {0}", Thanhvien);
 				Console.WriteLine(" So thanh vien VIP: {0}", vip);
 			}
+
 			static void Menu()
 			{
 				Console.WriteLine("Them nhan vien: ae");
